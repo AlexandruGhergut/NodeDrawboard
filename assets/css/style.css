@@ -20,6 +20,15 @@ canvas {
 	background: #F0F8FF;
 }
 
+#chat ul {
+	overflow-y: auto;
+	list-style: none;
+}
+
+#chat li {
+	word-break: break-all;
+}
+
 #messages {
 	margin-top: 0;
 	margin-bottom: 0;
