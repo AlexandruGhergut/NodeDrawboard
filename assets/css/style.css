@@ -49,6 +49,7 @@ form {
 }
 
 #inputField input {
+	box-sizing: border-box;
 	width: 89%;
 	height: 100%;
 }
@@ -56,9 +57,9 @@ form {
 #inputField button {
 	box-sizing: border-box;
 	width: 10%;
+	font-size: 1vw;
 	background: rgb(130, 224, 255);
 	height: 100%;
 	background: #0E4C95;
 	color: white;
-	border-radius: 10px;
 }
