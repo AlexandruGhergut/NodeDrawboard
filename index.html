@@ -9,20 +9,6 @@
 	
 	<body>
 		<script> 
-			function sendMessage() {
-				var textBox = document.getElementById("inputTextBox");
-				var message = document.getElementById("inputTextBox").value;
-				textBox.value = ""; // clear textbox
-			
-				var listItem = document.createElement("li");
-				var listItemText = document.createTextNode(message);
-				listItem.appendChild(listItemText);
-				listItem.style.background = "white";
-			
-				var messageList = document.getElementById("messages");
-				messages.appendChild(listItem);
-				return false;
-			} 
 		</script>
 		<canvas id="myCanvas" width="200" height="100">	
 		</canvas>
@@ -39,5 +25,14 @@
 				</div>
 			</form>
 		</div>
+		
+		<script src="/socket.io/socket.io.js"></script>
+		<script> var socket = io(); </script>
+		<script src = "assets/scripts/chat.js"></script>
+		<script>
+			socket.on("chat_message", function(message) {
+				appendMessage(message);
+			});
+		</script>
 	</body>
 </html>
