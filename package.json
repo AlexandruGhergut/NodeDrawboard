@@ -1,0 +1,9 @@
+{
+  "name": "NodeDrawboard",
+  "version": "0.0.1",
+  "description": "Collaborative drawing board where users can share ideas and chat",
+  "dependencies": {
+    "express": "~4.10.2",
+    "socket.io": "~1.4.5"
+  }
+}
