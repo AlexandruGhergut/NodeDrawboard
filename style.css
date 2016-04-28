@@ -1,0 +1,55 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+canvas {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+#chat {
+	box-sizing: border-box;
+	border: 2px solid black;
+	height: 100%;
+	width: 50%;
+	overflow: hidden;
+	background: #F0F8FF;
+}
+
+#messages {
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 95%;
+}
+
+form {
+	position: relative;
+	height: 5%;
+	width: 100%;
+}
+
+#inputField {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#inputField input {
+	width: 89%;
+	height: 100%;
+}
+
+#inputField button {
+	box-sizing: border-box;
+	width: 10%;
+	background: rgb(130, 224, 255);
+	height: 100%;
+	background: #0E4C95;
+	color: white;
+	border-radius: 10px;
+}
