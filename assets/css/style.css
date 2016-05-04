@@ -14,7 +14,7 @@ canvas {
 	box-sizing: border-box;
 	border: 2px solid black;
 	height: 100%;
-	width: 50%;
+	/*width: 50%;*/
 	overflow: hidden;
 	background: #F0F8FF;
 }

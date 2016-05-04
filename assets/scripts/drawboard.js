@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	}
 	
 	var canvas = document.getElementById("drawboard");
+	var chatBox = document.getElementById("chat");
 	canvas.width = window.innerWidth / 2;
 	canvas.height = window.innerHeight;
 	var context = canvas.getContext("2d");
